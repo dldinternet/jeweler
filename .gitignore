@@ -28,3 +28,4 @@ tmp
 .ruby-version
 
 Gemfile.lock
+.idea
