@@ -1,13 +1,23 @@
+*Jeweler maintenance has now shifted to Fred Mitchell*. I am now maintaining both Jeweler and its fork, juwelier. I will keep Jeweler at least functional with the latest Ruby releases, but put new features in Juwelier. Your input on this is more than welcome.
+
 # Jeweler: Craft the perfect RubyGem
+
+[![Join the chat at https://gitter.im/technicalpickles/jeweler](https://badges.gitter.im/technicalpickles/jeweler.svg)](https://gitter.im/technicalpickles/jeweler?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Jeweler provides the noble ruby developer with two primary features:
 
  * a library for managing and releasing RubyGem projects
  * a scaffold generator for starting new RubyGem projects
 
+PLEASE NOTE that if you are starting afresh, please use the successor [Juwelier](https://github.com/flajann2/juwelier)
+I (Fred Mitchell, flajann2) will be maintaining both Jeweler and Juwelier, but will be adding new features to
+Juwelier, and eventually "merge" this one into Juwelier after some namespace issues
+are dealt with.
+
 [![Build Status](https://travis-ci.org/technicalpickles/jeweler.png)](https://travis-ci.org/technicalpickles/jeweler)
 [![Coverage Status](https://coveralls.io/repos/technicalpickles/jeweler/badge.png)](https://coveralls.io/r/technicalpickles/jeweler)
 [![Dependency Status](https://www.versioneye.com/ruby/jeweler/2.0.0/badge.png)](https://www.versioneye.com/ruby/jeweler/2.0.0)
+[![Code Climate](https://codeclimate.com/github/technicalpickles/jeweler/badges/gpa.svg)](https://codeclimate.com/github/technicalpickles/jeweler)
 
 ## Hello, world
 
@@ -231,4 +241,5 @@ That means you can define your own namespaces, tasks, or use third party Rake li
 
 ## Copyright
 
-Copyright (c) 2008-2010 Josh Nichols. See LICENSE for details.
+Copyright (c) 2008-2010 Josh Nichols.
+Copyright (c) 2016 Fred Mitchell. See LICENSE for details.

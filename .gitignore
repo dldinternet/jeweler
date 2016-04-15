@@ -26,6 +26,5 @@ tmp
 
 # rbenv settings
 .ruby-version
-
 Gemfile.lock
 .idea
